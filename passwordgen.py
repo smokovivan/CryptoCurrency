@@ -32,7 +32,7 @@ def on_generate():
         
         messagebox.showinfo("Случаен код", f"Генерираният код е: {code}\n\nКодът е копиран в клипборда!")
     except ValueError:
-        messagesbox.showerror("Грешка", "Моля, въведете валидна дължина на кода.")
+        messagebox.showerror("Грешка", "Моля, въведете валидна дължина на кода.")
 
 # Основен прозорец с цветове и стилове, вдъхновени от Telegram
 root = tk.Tk()
