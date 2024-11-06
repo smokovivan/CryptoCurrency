@@ -76,4 +76,4 @@ generate_button = tk.Button(root, text="Генерирай код", command=on_g
 generate_button.pack(pady=20)
 
 # Стартиране на приложението
-root.mainloop()!
+root.mainloop()
